@@ -1,0 +1,33 @@
+### --- Python & RAG --- ###
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# נתוני ה-RAG המחולצים (מומלץ לא להעלות אם הם משתנים תדיר)
+rag_system/extracted_data.json
+extracted_data.json
+
+### --- C# / .NET --- ###
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+
+### --- IDEs & Tools --- ###
+.vscode/
+.idea/
+.DS_Store
+
+### --- Agentic Tools (Keep markdown, ignore logs/config) --- ###
+# אנחנו רוצים את קבצי ה-md למטרת ה-RAG
+# אבל לא את הגדרות המודל או הלוגים האישיים
+.cursor/cache/
+.cursor/logs/
+.claude/logs/
+.kiro/state/
